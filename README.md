@@ -11,6 +11,11 @@ Practice ML Project
 4. [GIT Cli](https://git-scm.com/downloads)
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
 
+Cloning a Repository from Github
+'''
+git clone <link_url>
+'''
+
 Creating Conda Environment
 '''
 conda create -p venv python=3.7 -y
@@ -49,4 +54,9 @@ git push origin main
 To check remote url
 '''
 git remote -v
+'''
+
+To see difference in current edit and previous version
+'''
+git diff
 '''
