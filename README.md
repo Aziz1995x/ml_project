@@ -63,9 +63,9 @@ git diff
 
 HEROKU Setup
 
-1. HEROKU_EMAIL = shaikh.azizul95@gmail.com
-2. HEROKU_API_KEY = e18ede31-6258-4f1d-96df-e171e00acf57
-3. HEROKU_APP_NAME = ml-regression-demo-1
+1. HEROKU_EMAIL = xxxxxxxx
+2. HEROKU_API_KEY = xxxxxxxx
+3. HEROKU_APP_NAME = xxxxxxxx
 
 Build Docker Image
 '''
