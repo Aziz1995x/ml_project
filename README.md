@@ -60,3 +60,37 @@ To see difference in current edit and previous version
 '''
 git diff
 '''
+
+HEROKU Setup
+
+1. HEROKU_EMAIL = shaikh.azizul95@gmail.com
+2. HEROKU_API_KEY = e18ede31-6258-4f1d-96df-e171e00acf57
+3. HEROKU_APP_NAME = ml-regression-demo-1
+
+Build Docker Image
+'''
+docker build -t <image_name>:<tag_name> .
+'''
+> Note: Image Name for docker should always be lowercase
+
+To list docker image
+'''
+docker images
+This will give Image ID of project
+'''
+
+Run Docker Image
+'''
+docker run -p 5000:5000 -e PORT=5000 <Image ID>
+'''
+
+To check docker container running
+'''
+docker ps
+This has container id
+'''
+
+To stop docker container
+'''
+docker stop <container id>
+'''
